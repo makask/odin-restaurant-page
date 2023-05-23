@@ -50,16 +50,25 @@ function createNavBar() {
   return navbar;
 }
 
+function createMain() {
+  const main = document.createElement('div');
+  main.classList.add('main');
+  return main;
+}
+
 function removeFirstChild() {
   const main = document.querySelector('.main');
   const firstChild = document.querySelector('.main-item');
   main.removeChild(firstChild);
 }
 
-function createMain() {
-  const main = document.createElement('div');
-  main.classList.add('main');
-  return main;
+function createFooter() {
+  const footer = document.createElement('footer');
+  footer.classList.add('footer');
+  const text = document.createElement('p');
+  text.textContent = 'Marko Kask 2023';
+  footer.appendChild(text);
+  return footer;
 }
 
 function createWebsite() {
@@ -67,6 +76,7 @@ function createWebsite() {
   content.appendChild(createHeader());
   content.appendChild(createMain());
   createHome();
+  content.appendChild(createFooter());
 }
 
 export default createWebsite;
