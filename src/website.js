@@ -6,7 +6,7 @@ function createHeader() {
   const header = document.createElement('div');
   header.classList.add('header');
   const restaurantName = document.createElement('h1');
-  restaurantName.textContent = 'Dad bod grill';
+  restaurantName.textContent = 'Dad Bod Grill';
   header.appendChild(restaurantName);
   header.appendChild(createNavBar());
   return header;

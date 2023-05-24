@@ -13,33 +13,41 @@ function createMenu() {
 
   menu.appendChild(
     addMenuItem(
-      'Pulled pork',
-      'Low and slow pulled pork, smoked with local apple wood',
-      'images/pulledpork.png'
+      'Brisket',
+      'Tender brisket, low and slow smoked with local hickory wood',
+      'images/brisket.png'
     )
   );
 
   menu.appendChild(
     addMenuItem(
-      'Pulled pork',
-      'Low and slow pulled pork, smoked with local apple wood',
-      'images/pulledpork.png'
+      'BBQ Smoked Kielbasa',
+      'Low & Slow, glazed with American Sweet BBQ',
+      'images/kielbasa.png'
     )
   );
 
   menu.appendChild(
     addMenuItem(
-      'Pulled pork',
-      'Low and slow pulled pork, smoked with local apple wood',
-      'images/pulledpork.png'
+      'St. Louis Style Ribs, Full Rack',
+      'Low and slow smoked with local cherry wood',
+      'images/stlouisribs.png'
     )
   );
 
   menu.appendChild(
     addMenuItem(
-      'Pulled pork',
-      'Low and slow pulled pork, smoked with local apple wood',
-      'images/pulledpork.png'
+      'BBQ Bacon Cheddar Burger',
+      'Smoked bacon, BBQ sauce, & cheddar cheese',
+      'images/cheddar.png'
+    )
+  );
+
+  menu.appendChild(
+    addMenuItem(
+      'Texas Burger',
+      'Texas chili, yellow onions, & yellow mustard',
+      'images/texas.png'
     )
   );
 
