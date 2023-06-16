@@ -13,3 +13,6 @@ Features
 Page is not responsive.
 
 ![image](https://github.com/makask/odin-restaurant-page/assets/16080688/1c508a4d-748f-4038-8f05-fe270cebe584)
+
+![image](https://github.com/makask/odin-restaurant-page/assets/16080688/6850a4e5-eb2d-4c4b-8a06-0453fdc4cd31)
+
